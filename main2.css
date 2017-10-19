@@ -1,0 +1,87 @@
+body{
+  margin: 80px;
+}
+.tabla{
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+  margin: 0;
+}
+
+.cabecera{
+  display: block;
+  width: 604px;
+  height: 40px;
+  background-color: orange;
+  border: 1px solid black;
+  top: 0px;
+}
+
+.primera{            /*cómo hacer que no se note la doble raya negra?*/
+  width: 180px;
+  height: 420px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+  overflow: auto;
+}
+.segunda{
+  width: 240px;
+  height: 420px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+}
+.tercera{
+  width: 180px;
+  height: 420px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+}
+.pie{
+  width: 604px;
+  height: 40px;
+  display: inline-block;
+  background: orange;
+  border: 1px solid black;
+}
+.imagen1{            
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+.imagen2{
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+h2,h4{
+  text-align: center;
+}
+h2{
+  margin-top: 50px;
+}
+
+p{
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.parrafo2{
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+  margin: 15px;
+
+}
+h3{
+  margin: 10px;
+  text-align: center;
+}
+
+/*.clearfix {
+  overflow: auto;
+}*/
